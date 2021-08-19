@@ -3,17 +3,18 @@ import Navigation from "./Navigation";
 
 const navItems = [{
     text: 'Main',
-    icon: <HiHome size='24'/>
+    icon: <HiHome size='24' />
 },
 {
     text: 'Student',
-    icon: <HiAcademicCap size='24'/>
+    icon: <HiAcademicCap size='24' />
 },
 {
     text: 'Book',
-    icon: <HiBookOpen size='24'/>
-    }
-]
+    icon: <HiBookOpen size='24' />
+}
+];
+
 const Stories = {
     title: 'Navigation',
     component: Navigation,
