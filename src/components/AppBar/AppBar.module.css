@@ -12,3 +12,8 @@
     padding: 80px 20px;
 }
 
+.content {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

@@ -17,3 +17,7 @@
 .item svg{
 margin-right: 10px;
 }
+
+.text{
+    display: none;
+}

@@ -12,9 +12,9 @@ export default function AppBar({ navItems, logoImg, minimized = true }) {
             <div className={styles.logoThumb}>
                 <Logo imgUrl={logoImg} />
             </div>
-            <div>
-                <Toggle />
-                <Navigation items={navItems}/>
+            <div className={styles.content}>
+                <Toggle reversed={isMinimized} onClick={toggle}/>
+                <Navigation items={navItems} reversed={isMinimized}/>
             </div>
         </div>
     )
